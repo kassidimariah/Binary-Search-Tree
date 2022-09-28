@@ -1,7 +1,7 @@
 /*
 *File: binarySearchTree.h 
 
-*Author: Kassidi Bukarica and Brenna Bentley
+*Author: Kassidi Knight and Brenna Bentley
 
 *Purpose: 
 */
@@ -227,8 +227,6 @@ Position<T> BinarySearchTree<T>::find( const T& item ) const {
 */
 template <class T>
 Position<T> BinarySearchTree<T>::findUtility( const T& item, const Position<T>& p ) const{
-	
-	//Check this function in tutoring 
 	
 	if(p.isExternal()){  
 		return;
@@ -504,10 +502,6 @@ void BinarySearchTree<T>::traverseAndPrint(const Position<T>& p, int type){
 	}
 }
 #endif
-
-//erase with class T parameter 
-//trav and print does not need to ask if a pointer is null, don't pass it a pointer 
-//
 
 
 
